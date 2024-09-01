@@ -1,0 +1,36 @@
+body {
+    background-color: #89bdb8; /* Light background for a modern look */
+    font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
+}
+
+.container {
+    max-width: 800px; /* Limit the width for a more focused layout */
+    margin: auto;
+    padding: 20px;
+    background-color: #2bb587; /* White background for the form container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
+
+h3 {
+    margin-top: 40px; /* Add space between form and table heading */
+    color: #343a40; /* Darker color for the heading */
+    text-align: center;
+}
+
+table {
+    margin-top: 20px; /* Space between table and form */
+}
+
+th {
+    background-color: #0761e8; /* Bootstrap primary color for table header */
+    color: #050505; /* White text for contrast */
+}
+
+td {
+    vertical-align: middle; /* Center text vertically in table cells */
+}
+
+.btn-primary {
+    width: 100%; /* Full-width submit button for better UX */
+}
